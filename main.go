@@ -211,7 +211,7 @@ func main(){
 		fmt.Print("Invalid string supplied, try again: ");
 	}
 
-	fmt.Print("How many Google pages do you want to scrape? ");
+	fmt.Print("How many Google pages do you want to search? ");
 
 	for scanner.Scan() {
 		if scanner.Text() != "" {
